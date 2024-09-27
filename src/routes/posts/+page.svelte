@@ -1,3 +1,10 @@
+<script lang="ts">
+	import { onDestroy, onMount } from "svelte"
+
+    onMount(() => console.log('Mounted posts page'))
+    onDestroy(() => console.log('Unmounted posts page'))
+</script>
+
 <nav>
     <ul>
         <li>
